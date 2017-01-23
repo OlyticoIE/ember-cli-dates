@@ -9,14 +9,14 @@ import { monthAndDay } from 'ember-cli-dates/helpers/month-and-day';
 import { dateAndTime } from 'ember-cli-dates/helpers/date-and-time';
 
 export var initialize = function(/* container, app */) {
-  Ember.Handlebars.helper('time-format', timeFormat);
-  Ember.Handlebars.helper('time-ago-in-words', timeAgoInWords);
-  Ember.Handlebars.helper('day-of-the-week', dayOfTheWeek);
-  Ember.Handlebars.helper('time-ahead-in-words', timeAheadInWords);
-  Ember.Handlebars.helper('time-delta-in-words', timeDeltaInWords);
-  Ember.Handlebars.helper('month-and-year', monthAndYear);
-  Ember.Handlebars.helper('month-and-day', monthAndDay);
-  Ember.Handlebars.helper('date-and-time', dateAndTime);
+  Ember.Helper.helper('time-format', timeFormat);
+  Ember.Helper.helper('time-ago-in-words', timeAgoInWords);
+  Ember.Helper.helper('day-of-the-week', dayOfTheWeek);
+  Ember.Helper.helper('time-ahead-in-words', timeAheadInWords);
+  Ember.Helper.helper('time-delta-in-words', timeDeltaInWords);
+  Ember.Helper.helper('month-and-year', monthAndYear);
+  Ember.Helper.helper('month-and-day', monthAndDay);
+  Ember.Helper.helper('date-and-time', dateAndTime);
 };
 
 export default {

@@ -15,4 +15,4 @@ function timeAheadInWords(date, optionalLocale) {
 
 export { timeAheadInWords };
 
-export default Ember.Handlebars.makeBoundHelper(timeAheadInWords);
+export default Ember.Helper.helper(timeAheadInWords);

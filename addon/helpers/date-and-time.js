@@ -7,4 +7,4 @@ function dateAndTime(date, optionalLocale) {
 
 export { dateAndTime };
 
-export default Ember.Handlebars.makeBoundHelper(dateAndTime);
+export default Ember.Helper.helper(dateAndTime);

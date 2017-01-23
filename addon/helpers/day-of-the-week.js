@@ -15,4 +15,4 @@ function dayOfTheWeek(date, optionalLocale) {
 
 export { dayOfTheWeek };
 
-export default Ember.Handlebars.makeBoundHelper(dayOfTheWeek);
+export default Ember.Helper.helper(dayOfTheWeek);

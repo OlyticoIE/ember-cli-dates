@@ -20,4 +20,4 @@ function timeFormat(date, optionalFormat, optionalLocale) {
 
 export { timeFormat };
 
-export default Ember.Handlebars.makeBoundHelper(timeFormat);
+export default Ember.Helper.helper(timeFormat);

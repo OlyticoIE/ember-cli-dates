@@ -15,4 +15,4 @@ function monthAndDay(date, optionalLocale) {
 
 export { monthAndDay };
 
-export default Ember.Handlebars.makeBoundHelper(monthAndDay);
+export default Ember.Helper.helper(monthAndDay);

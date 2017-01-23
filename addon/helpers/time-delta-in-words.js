@@ -15,4 +15,4 @@ function timeDeltaInWords(date, optionalLocale) {
 
 export { timeDeltaInWords };
 
-export default Ember.Handlebars.makeBoundHelper(timeDeltaInWords);
+export default Ember.Helper.helper(timeDeltaInWords);
